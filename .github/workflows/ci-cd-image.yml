@@ -18,8 +18,8 @@ jobs:
       - name: Push Image
         run: docker push $IMAGE_NAME
 
-                                                                      deploy:
-    eeds: build-push-image
+  deploy:
+    needs: build-push-image
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
