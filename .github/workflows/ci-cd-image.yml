@@ -2,7 +2,7 @@ name: Build, Push and Deploy Docker Image
 run-name: Build, Push and Deploy Image
 on: [push]
 env:
-  IMAGE_NAME: "ghcr.io/zenna24/nginx-Alzena"
+  IMAGE_NAME: "ghcr.io/zenna24/nginx-alzena"
 jobs:
   build-push-image:
     runs-on: ubuntu-latest
