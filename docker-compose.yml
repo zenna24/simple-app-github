@@ -1,0 +1,5 @@
+services:
+  webserver:
+    image: ghcr.io/zenna24/nginx-Alzena
+    ports:
+     - "8080:80"
