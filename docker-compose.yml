@@ -1,5 +1,5 @@
 services:
   webserver:
-    image: ghcr.io/zenna24/nginx-Alzena
+    image: ghcr.io/zenna24/nginx-alzena:latest
     ports:
      - "8080:80"
